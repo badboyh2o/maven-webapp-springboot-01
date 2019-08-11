@@ -29,9 +29,9 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/login", method = RequestMethod.POST, produces = "application/json" )
-    public String login(@RequestBody User model, HttpServletRequest request) {
+    public User login(@RequestBody User model, HttpServletRequest request) {
         User user = userService.findUserByName(model.getUsername());
-        return user.toString();
+        return user;
     }
     
     
