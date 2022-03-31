@@ -16,7 +16,7 @@
 
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <boot.version>1.4.2.RELEASE</boot.version>
+      <boot.version>2.5.12</boot.version>
   </properties>
 
   <dependencies>
